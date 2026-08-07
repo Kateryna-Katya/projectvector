@@ -2,6 +2,8 @@
 
 .background {
     text-align: left;
+
+    background: radial-gradient(50% 50% at 50% 50%, #405841 0%, #2e433e 100%);
 }
 
 .privacy-title {
