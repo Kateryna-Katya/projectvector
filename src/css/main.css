@@ -19,7 +19,7 @@
 }
 
 .home-logo {
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -33,4 +33,112 @@
     .home-logo {
         margin-top: 70px;
     }
+}
+/* About the Game */
+.about-section{
+    background-image: url("/img/about/mob-back.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 180px 250px;
+}
+.about-container{
+    padding: 80px 0 40px;
+}
+.about-text{
+    margin-top: 14px;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.about-section{
+    background-image: url("/img/about/desk-back.png");
+    background-size: 534px 742px;
+}
+.about-container{
+    padding: 150px 80px;
+    position: relative;
+}
+.about-container h2{
+    text-align: left;
+}
+.about-text{
+    margin-top: 0;
+    width: 630px;
+    margin-left: 0;
+    margin-right: auto;
+} 
+.about-img{
+    position: absolute;
+    top: 24%;
+    right: 22%;
+}
+}
+/* How to Play */
+.how-wrapper{
+    background-image: url("/img/how/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 200px;
+    padding-top: 240px;
+}
+.how-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.how-item{
+display: flex;
+align-items: start;
+gap: 4px;
+width: 334px;
+}
+.how-item-title{
+    margin-bottom: 12px;
+    font-family: "Bree Serif", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        color: #55b887;
+}
+@media only screen and (min-width: 1440px) {
+ .how-wrapper{
+    background-image: url("/img/how/desk.png");
+    background-size: 1280px 708px;
+padding: 148px 161px 148px 197px;
+}
+.how-list{
+width: 922px;
+    height: 412px;
+    margin-left: auto;
+    margin-right: auto;
+position: relative;
+}
+.how-item{
+    position: absolute;
+width: 350px;
+}
+.how-item-text{
+background: radial-gradient(50% 50% at 50% 50%, #405841 0%, #2e433e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h1{
+    top: 40%;
+left: 0;
+}
+.h2{
+    top: 0;
+    left: 30%;
+}
+.h3{
+    top: 40%;
+right: 0;
+}
+.h4{
+    bottom: 0;
+left: 30%;
+}
 }
