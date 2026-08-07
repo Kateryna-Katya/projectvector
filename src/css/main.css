@@ -1,0 +1,36 @@
+.home-section {
+    background-image: url("/img/home/mob-back.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 800px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.home-logo {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 1440px) {
+    .home-section {
+        background-image: url("/img/home/desk-back.png");
+        height: 823px;
+    }
+
+    .home-logo {
+        margin-top: 70px;
+    }
+}
