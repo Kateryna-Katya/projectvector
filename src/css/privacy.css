@@ -1,0 +1,81 @@
+@import url('./styles.css');
+
+.background {
+    text-align: left;
+}
+
+.privacy-title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e8e4d5;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+.underline {
+    font-weight: 700;
+
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.text {
+    margin-top: 16px;
+}
+
+.policy-number {
+    padding-left: 20px;
+}
+
+
+.policy-span {
+    color: #0095ff;
+}
+
+.span-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #fff;
+}
+    .policy-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+}
